@@ -1,0 +1,102 @@
+body {
+    
+    text-align: center;
+    font-size: 12pt;
+    background-color:rgb(233, 213, 250);
+} 
+
+
+
+h1.first {
+    color: black;
+    background: linen;
+    border: 2px double rgb(120, 14, 242);
+    font-size: 3em;
+    max-width: 2000px;
+    
+}
+
+h1 {
+    color: white; 
+    background-color: black;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+h2.first {
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(88,75,67);
+    font-size: 1.6em;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+
+div.parallax {
+     border: 5px solid maroon;
+     text-align: center;
+     padding: 5px;
+}
+
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+   
+}
+
+ul.first {
+    background-color: rgb(246, 228, 249);
+}
+
+div.parallax {
+    background-image: url("flowers.jpeg");
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: rgb(20, 92, 140);
+    text-decoration: none; 
+}
+
+a:visited {
+    color: rgb(105, 15, 128);
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+header, main, footer {
+    min-width: 80px;
+}
+
+p {
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+ul.first li {
+    background: #dcc1fa;
+    color: rgb(133, 23, 211);
+    padding: 5px;
+    max-width: 700px;
+    margin: auto;
+}
+
+ul.first {
+    background: #470db3;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    
+  }
